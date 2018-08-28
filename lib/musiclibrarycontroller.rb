@@ -20,6 +20,7 @@ class MusicLibraryController
     if user_input != "exit"
       user_input = gets.chomp
     else
+      "Exiting now"
       break
     end 
     
