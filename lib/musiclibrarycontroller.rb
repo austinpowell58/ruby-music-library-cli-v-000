@@ -10,7 +10,7 @@ class MusicLibraryController
     puts "Welcome to your music library!"
     puts "To list all of your songs, enter 'list songs'." expect($stdout).to receive(:puts).with("Welcome to your music library!")
     puts "To list all of the genres in your library, enter 'list genres'."
-    puts 
+    puts "To list all of the songs by a particular artist, enter 'list artist'."
       expect($stdout).to receive(:puts)"To list all of your songs, enter 'list songs'.")
       expect($stdout).to receive(:puts).with("To list all of the artists in your library, enter 'list artists'.")
       expect($stdout).to receive(:puts).with("To list all of the genres in your library, enter 'list genres'.")
