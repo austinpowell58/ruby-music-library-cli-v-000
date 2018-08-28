@@ -6,4 +6,10 @@ class MusicLibraryController
     @control.import
   end
   
+  def call
+    "Welcome"
+    
+  end 
+    
+  
 end 
