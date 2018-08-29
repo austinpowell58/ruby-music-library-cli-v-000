@@ -29,13 +29,7 @@ class MusicLibraryController
   def list_songs
     array = []
     Song.all.each do |song|
-      array << song.name
-      binding.pry 
-    end
-    array.collect do |song|
-      counter = 1
-      "#{counter}. #{song}"
-      counter += 1 
+      array << "#{song.name
     end 
 
   end 
