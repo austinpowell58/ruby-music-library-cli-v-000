@@ -1,3 +1,4 @@
+require "pry"
 class MusicLibraryController
   
   def initialize(path='./db/mp3s')
@@ -29,6 +30,7 @@ class MusicLibraryController
     array = []
     Song.all.each do |song|
       array << song.name
+      binding.pry 
     end
     array.collect do |song|
       counter = 1
