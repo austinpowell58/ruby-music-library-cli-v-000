@@ -33,8 +33,8 @@ class MusicLibraryController
     array.collect do |song|
       counter = 1
       "#{counter}. #{song}"
-    
-    
+    end 
+
   end 
       
       
