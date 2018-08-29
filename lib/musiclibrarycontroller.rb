@@ -23,7 +23,10 @@ class MusicLibraryController
       return "Exit"
     end 
     
-  end 
+  end
+  
+  def list_songs
+    
     
   
 end 
